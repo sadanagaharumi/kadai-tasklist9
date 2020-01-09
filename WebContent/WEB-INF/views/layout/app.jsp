@@ -5,8 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <title>メッセージボード</title>
-        <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
-        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
+        <link rel="stylesheet" href="<c:url value='/CSS/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/CSS/style.css' />">
     </head>
     <body>
         <div id="wrapper">
@@ -17,7 +17,7 @@
                 ${param.content}
             </div>
             <div id="footer">
-                by Harumi.
+                by Harumiiiii.
             </div>
         </div>
     </body>
