@@ -22,7 +22,6 @@ public class TaskValidator {
         return errors;
     }
 
-    // タイトルの必須入力チェック
     private static String _validateTitle(String title) {
         if(title == null || title.equals("")) {
             return "タイトルを入力してください。";
@@ -31,7 +30,7 @@ public class TaskValidator {
         return "";
     }
 
-    // メッセージの必須入力チェック
+
     private static String _validateContent(String content) {
         if(content == null || content.equals("")) {
             return "メッセージを入力してください。";
