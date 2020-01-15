@@ -35,12 +35,15 @@ public class ShowServlet extends HttpServlet {
         EntityManager em = DBUtil.createEntityManager();
 
         task m = em.find(task.class, Integer.parseInt(request.getParameter("id")));
-
         em.close();
 
         request.setAttribute("task", m);
 
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasks/show.jsp");
         rd.forward(request, response);
+    }
+
+    public static void main(String[] args) {
+
     }
 }

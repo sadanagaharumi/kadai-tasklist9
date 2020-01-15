@@ -4,7 +4,7 @@
     <div id="flush_error">
         入力内容にエラーがあります。<br />
         <c:forEach var="error" items="${errors}">
-            ・<c:out value="${error}" /><br />
+            <c:out value="${error}" /><br />
         </c:forEach>
 
     </div>
@@ -14,7 +14,7 @@
 <br /><br />
 
 <label for="content">詳細</label><br />
-<input type="text" name="content" value="${taskl.content}" />
+<input type="text" name="content" value="${task.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
