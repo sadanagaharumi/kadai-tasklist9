@@ -27,9 +27,8 @@ public class UpdateServlet extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public UpdateServlet() {
-        super();
+        super();}
         // TODO Auto-generated constructor stub
-    }
 
     /**
      * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -72,6 +71,5 @@ public class UpdateServlet extends HttpServlet {
             }
 
         }
-
-
-
+    }
+}
