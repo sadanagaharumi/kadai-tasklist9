@@ -18,4 +18,4 @@
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
-<button type="submit">表示</button>
+<button type="submit">タスク登録</button>
